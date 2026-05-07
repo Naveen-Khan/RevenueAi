@@ -2,6 +2,10 @@
 
 Welcome to the **Sales Prediction Intelligence** project! This repository contains a premium, interactive web application built with [Streamlit](https://streamlit.io/) designed to help businesses optimize their advertising budgets leveraging Advanced Machine Learning.
 
+test on->
+      
+      https://naveen-khan-sales-prediction-app-bamzvr.streamlit.app/
+
 ## 🚀 Overview
 
 In a fast-paced market, allocating marketing budgets across diverse channels effectively is crucial for business growth and maximizing Return on Investment (ROI). This application bridges the gap between historical advertising expenditure (TV, Radio, Newspaper) and forecasted sales.
