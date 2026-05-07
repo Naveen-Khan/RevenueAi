@@ -15,6 +15,14 @@ By utilizing **Polynomial Regression**, it allows you to simulate budget allocat
 - **Data-Driven Visualizations:** Features interactive Plotly visualizations demonstrating feature correlations and the true coefficient impact of variable interplay (e.g. `TV^2` vs `Radio * Newspaper`).
 - **Premium User Interface:** Designed with a stunning, modern aesthetic featuring glassmorphism frosted metric cards, animated gradients, and custom sleek typography.
 
+## 📊 Model Performance
+
+With the default configuration (Polynomial Degree 2), the model demonstrates high predictive accuracy on the testing set:
+- **R² Score:** `0.9533` (The model explains over 95% of the variance in sales)
+- **Mean Squared Error (MSE):** `1.4425`
+
+*(Note: These metrics are calculated using an 80/20 train-test split and will update dynamically within the app if you change the polynomial degree.)*
+
 ## 🛠️ Installation and Setup
 
 To run this application locally, you will need Python installed. Follow these steps:
