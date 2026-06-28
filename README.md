@@ -1,4 +1,4 @@
-# 📈 Sales Prediction Intelligence
+# 📈 SmartSales_AI -An Intelligance Sales prediction app based on advertisement
 
 Welcome to the **Sales Prediction Intelligence** project! This repository contains a premium, interactive web application built with [Streamlit](https://streamlit.io/) designed to help businesses optimize their advertising budgets leveraging Advanced Machine Learning.
 
