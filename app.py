@@ -31,7 +31,7 @@ st.markdown("""
 html, body, [class*="css"] {
     font-family: 'Inter', sans-serif;
     background: #0d1117;
-    color: #e2e8f0;
+    color: #ffffff;
 }
 
 .block-container { padding: 2rem 2.5rem !important; max-width: 1300px !important; }
@@ -56,7 +56,7 @@ html, body, [class*="css"] {
 .brand-sub {
     text-align: center;
     font-size: 0.72rem;
-    color: #475569;
+    color: #94a3b8;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     margin-bottom: 1.2rem;
@@ -73,10 +73,10 @@ html, body, [class*="css"] {
     text-align: center;
     border-top: 2px solid #6366f1;
 }
-.kpi-label { font-size: 0.7rem; color: #475569; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.4rem; font-weight: 600; }
+.kpi-label { font-size: 0.7rem; color: #a78bfa; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.4rem; font-weight: 600; }
 .kpi-val   { font-family: 'Outfit', sans-serif; font-size: 1.9rem; font-weight: 700;
              background: linear-gradient(135deg,#818cf8,#a78bfa); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
-.kpi-sub   { font-size: 0.75rem; color: #334155; margin-top: 0.3rem; }
+.kpi-sub   { font-size: 0.75rem; color: #94a3b8; margin-top: 0.3rem; }
 
 /* Prediction box */
 .pred-box {
@@ -90,7 +90,7 @@ html, body, [class*="css"] {
 .pred-tag  { font-size: 0.72rem; font-weight: 700; color: #818cf8; text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 0.6rem; }
 .pred-val  { font-family: 'Outfit', sans-serif; font-size: 4rem; font-weight: 800;
              background: linear-gradient(135deg,#818cf8,#a78bfa,#ec4899); -webkit-background-clip:text; -webkit-text-fill-color:transparent; line-height:1; }
-.pred-unit { font-size: 0.85rem; color: #475569; margin-top: 0.4rem; }
+.pred-unit { font-size: 0.85rem; color: #94a3b8; margin-top: 0.4rem; }
 
 /* Insight */
 .insight {
@@ -100,7 +100,7 @@ html, body, [class*="css"] {
     padding: 0.9rem 1.1rem;
     margin: 0.8rem 0;
     font-size: 0.9rem;
-    color: #94a3b8;
+    color: #ffffff;
     line-height: 1.6;
 }
 
@@ -109,7 +109,7 @@ html, body, [class*="css"] {
     font-family: 'Outfit', sans-serif;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #e2e8f0;
+    color: #ffffff;
     margin: 1.8rem 0 1rem;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid rgba(99,102,241,0.15);
@@ -132,7 +132,7 @@ html, body, [class*="css"] {
     background: transparent !important;
     border-radius: 8px !important;
     padding: 0.5rem 1.2rem !important;
-    color: #475569 !important;
+    color: #94a3b8 !important;
     font-weight: 500 !important;
     font-size: 0.88rem !important;
     border: none !important;
@@ -148,7 +148,7 @@ div[data-testid="stSidebar"] .stButton > button {
     background: transparent !important;
     border: 1px solid rgba(99,102,241,0.18) !important;
     border-radius: 9px !important;
-    color: #94a3b8 !important;
+    color: #ffffff !important;
     font-weight: 500 !important;
     width: 100% !important;
     text-align: left !important;
@@ -159,7 +159,7 @@ div[data-testid="stSidebar"] .stButton > button {
 div[data-testid="stSidebar"] .stButton > button:hover {
     background: rgba(99,102,241,0.1) !important;
     border-color: rgba(99,102,241,0.35) !important;
-    color: #c7d2fe !important;
+    color: #ffffff !important;
 }
 
 /* Main buttons */
@@ -178,18 +178,19 @@ div[data-testid="stMainBlockContainer"] .stButton > button {
     border-radius: 10px;
     padding: 0.7rem 1rem !important;
 }
-[data-testid="stMetricLabel"] { color: #475569 !important; font-size: 0.78rem !important; }
-[data-testid="stMetricValue"] { color: #c7d2fe !important; font-family: 'Outfit',sans-serif !important; }
+[data-testid="stMetricLabel"] { color: #a78bfa !important; font-size: 0.78rem !important; }
+[data-testid="stMetricValue"] { color: #ffffff !important; font-family: 'Outfit',sans-serif !important; }
 
 hr { border-color: rgba(99,102,241,0.1) !important; margin: 1.5rem 0 !important; }
-p, li { color: #94a3b8 !important; }
-label { color: #94a3b8 !important; }
+p, li { color: #ffffff !important; }
+label { color: #ffffff !important; }
 
 /* scrollbar */
 ::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: #0d1117; }
 ::-webkit-scrollbar-thumb { background: rgba(99,102,241,0.35); border-radius: 99px; }
 </style>
+
 """, unsafe_allow_html=True)
 
 # ── Chart defaults ────────────────────────────────────────────────────────────
