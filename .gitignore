@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+streamlit_err.log
+streamlit_out.log
+.gemini/
+.idea/
+.vscode/
