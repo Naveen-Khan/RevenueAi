@@ -562,7 +562,7 @@ st.markdown("---")
 st.markdown("""
 <div style="text-align:center;padding:1rem;color:#1e293b;font-size:0.8rem;">
     <span style="font-family:Outfit;font-weight:700;background:linear-gradient(135deg,#818cf8,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">
-        🧠 SMARTSales AI
+        🧠 Revenue AI
     </span>
     &nbsp;·&nbsp; Streamlit &nbsp;·&nbsp; scikit-learn &nbsp;·&nbsp; Plotly &nbsp;·&nbsp; Polynomial Regression
 </div>
