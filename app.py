@@ -1,4 +1,4 @@
-import streamlit as st
+ueimport streamlit as st
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import PolynomialFeatures
@@ -15,7 +15,7 @@ warnings.filterwarnings("ignore", category=UserWarning, module="sklearn")
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="SMARTSales AI",
+    page_title="RevenueAI",
     page_icon="🧠",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -254,7 +254,7 @@ df = load_data()
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown('<div class="brand">🧠 SMARTSales AI</div>', unsafe_allow_html=True)
+    st.markdown('<div class="brand">🧠 RevenueAI </div>', unsafe_allow_html=True)
     st.markdown('<div class="brand-sub">Polynomial Regression</div>', unsafe_allow_html=True)
 
     st.markdown("---")
@@ -295,7 +295,7 @@ if st.session_state.page == "predict":
 
     with st.expander("👋 New here? Read the Quick Start Guide", expanded=True):
         st.markdown("""
-        ### Welcome to SMARTSales AI!
+        ### Welcome to RevenueAI!
         This dashboard forecasts product sales volume based on advertising spends across three marketing channels: **TV**, **Radio**, and **Newspaper**.
         
         #### 🚀 How to Use:
