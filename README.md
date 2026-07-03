@@ -1,8 +1,8 @@
-# 📈 SmartSales_AI -An Intelligance Sales prediction app based on advertisement
+# 📈 RevenueAi -An Intelligance Sales prediction app based on advertisement
 
 Welcome to the **Sales Prediction Intelligence** project! This repository contains a premium, interactive web application built with [Streamlit](https://streamlit.io/) designed to help businesses optimize their advertising budgets leveraging Advanced Machine Learning.
 
-**Test it live:** [SMARTSales AI App](https://naveen-khan-sales-prediction-app-bamzvr.streamlit.app/)
+**Test it live:** [ RevenueAi App](https://naveen-khan-sales-prediction-app-bamzvr.streamlit.app/)
 
 ## 🚀 Overview
 
